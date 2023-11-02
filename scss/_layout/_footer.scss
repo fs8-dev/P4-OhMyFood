@@ -1,8 +1,6 @@
-@import "../_utils/variables";
-
 .footer {
     padding: 22px 25px;
-    background-color: $grey-background;
+    background-color: $footer-background;
     color: white;
 
     &__title-footer {
