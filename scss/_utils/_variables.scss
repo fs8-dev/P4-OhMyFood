@@ -1,6 +1,13 @@
+
+/****** Color ***********/
 $primary-color: #9356DC;
 $secondary-color: #FF79DA;
 $third-color: #99E2D0;
 $grey-background: #F6F6F6;
+
+/****** Gradient ***********/
+$gradient-color: $primary-color, $secondary-color;
+
+/****** Font Family ***********/
 $title-font: 'Shrikhand', serif;
 $text-font: 'Roboto', sans-serif;
