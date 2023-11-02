@@ -8,8 +8,7 @@
     }
 
     &__nav-footer {
-        display: flex;
-        flex-direction: column;
+        @include flex(column);
         align-items: flex-start;
         gap: 7px;
     }
