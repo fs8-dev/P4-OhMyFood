@@ -1,0 +1,45 @@
+.fonctionnement-container {
+
+    &__filtres {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+.filtre-resto {
+    display: flex;
+    align-items: center;
+    width: 330px;
+    height: 70px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    &:hover {}
+
+    &-text {
+        color: black;
+    }
+
+    &-blocNum {
+        position: relative;
+        margin-left: -15px;
+        height: 27px;
+        width: 27px;
+        border-radius: 28px;
+        background-color: #9356DC;
+    }
+
+    &-num {
+        color: white;
+        margin: 4px 0 0 9px;
+    }
+
+    .fas.fa-store.icone {
+        color: #9356DC;
+    }
+
+}
