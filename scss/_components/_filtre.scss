@@ -1,3 +1,5 @@
+@import "../_utils/variables";
+
 .fonctionnement-container {
 
     &__filtres {
@@ -9,7 +11,7 @@
 
 }
 
-.filtre-resto {
+.filtre-restaurant {
     display: flex;
     align-items: center;
     width: 330px;
@@ -18,7 +20,9 @@
     border-radius: 20px;
     margin-bottom: 20px;
 
-    &:hover {}
+    &:hover {
+
+    }
 
     &-text {
         color: black;
@@ -30,7 +34,7 @@
         height: 27px;
         width: 27px;
         border-radius: 28px;
-        background-color: #9356DC;
+        background-color: $primary-color;
     }
 
     &-num {
@@ -39,7 +43,7 @@
     }
 
     .fas.fa-store.icone {
-        color: #9356DC;
+        color: $primary-color;
     }
 
 }
