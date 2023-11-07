@@ -1,2 +1,33 @@
 @import "../_utils/mixins";
 @import "../_utils/variables";
+
+.section-menu {
+    display: flex;
+    justify-content: space-between;
+
+    &--card-menu {
+        position: relative;
+        width: 340px;
+        height: 251px;
+        border-radius: 15px;
+
+    }
+
+    img {
+        width: 346px;
+        height: 231px;
+        object-fit: cover;
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+.new-menu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: $third-color;
+    color: white;
+    padding: 7px;
+    border-radius: 2px;
+}
